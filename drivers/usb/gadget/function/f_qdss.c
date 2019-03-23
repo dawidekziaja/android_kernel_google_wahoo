@@ -1050,7 +1050,3 @@ static void __exit usb_qdss_exit(void)
 	usb_function_unregister(&qdssusb_func);
 	qdss_cleanup();
 }
-
-module_init(usb_qdss_init);
-module_exit(usb_qdss_exit);
-MODULE_DESCRIPTION("USB QDSS Function Driver");
